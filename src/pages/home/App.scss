@@ -1,0 +1,58 @@
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #000;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+header img{
+  width: 100px;
+}
+header a{
+  color: #ffff;
+  text-decoration: none;
+}
+
+.valhalla{
+  background-color: #3d3c3c;
+}
+.mundo
+{
+display: flex;
+justify-content: center;
+gap: 20px;
+align-items: center;
+}
+.mundo button{
+  background-color: #000;
+  color: #ffff;
+  border: #ffff solid 1px;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.mundo img
+{
+ width: 25px;
+ height: 25px;
+}
+
+.as
+{
+  display: flex;
+  flex-direction: row;
+ gap: 30px;
+ align-items: center;
+ font-size: 20px;
+}
+.img-val
+{
+  margin-right: 650px;
+}
+
+.traco 
+{
+  font-size: 30px;
+}
