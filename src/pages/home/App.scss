@@ -1,3 +1,6 @@
+.valhalla{
+  background-color: #3d3c3c;
+
 header{
   display: flex;
   flex-direction: row;
@@ -14,9 +17,6 @@ header a{
   text-decoration: none;
 }
 
-.valhalla{
-  background-color: #3d3c3c;
-}
 .mundo
 {
 display: flex;
@@ -55,4 +55,13 @@ align-items: center;
 .traco 
 {
   font-size: 30px;
+}
+
+.corpo{
+  background-color: #3333;
+  display: flex;
+  flex-direction: row;
+  color: #ffff;
+
+}
 }
