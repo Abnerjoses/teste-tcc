@@ -60,29 +60,33 @@ align-items: center;
 .corpo{
   background-color: #3333;
   color: #ffff;
-
+  gap: 30000px;
+  margin-bottom: 500px;
 }
 
 
 .corpo h4{
   padding: 0px 100px;
   margin-top: 83px;
+  
 }
-
-.left{
-  padding: 0px 100px;
-  margin-bottom: 203px;
-}
-
-.right{
-  padding: 0px 200px;
-}
-
 
 .centro{
   display: flex;
   flex-direction: row;
   color: #ffff;
-
+  gap: 280px;
+  padding: 0px 100px;
+  
+  
 }
+
+.centro h1{
+  width: 500px;
+  font-size: 40px;
+}
+.centro p{
+  margin-top: 33px;
+}
+
 }
