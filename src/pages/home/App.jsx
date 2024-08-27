@@ -72,11 +72,20 @@ function App() {
 
       <button className='button'>Enviar</button>
     </div>
+
+    <div className='quinta'>    
+    <h1>Okla</h1>
+      
+      <img  className='print1'src="/assets/images/image12.png"/>
+     
+
+
+    </div>
+
+
           
 
-
-
-    
+  
 
       </div>
 
