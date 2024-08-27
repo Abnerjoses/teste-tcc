@@ -45,6 +45,33 @@ function App() {
     
     </div>
 
+    <div className='segunda'>
+
+      <hr className='linha'/>
+
+      <button className='botao'>Crie seu site</button>
+
+    </div>
+    <div className='terceira'> 
+
+      <img  className='print'src="/assets/images/image-removebg-preview.png"/>
+      
+      
+      
+      <h1 className='titulo'>Vikings</h1>
+      
+      <h2 className='subtitulo'>Explorar site</h2>
+   
+
+
+
+    </div>
+          
+
+
+
+    
+
       </div>
 
     </div>
