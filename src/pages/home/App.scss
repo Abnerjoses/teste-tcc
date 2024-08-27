@@ -151,5 +151,46 @@ align-items: center;
   
   
   }
+  .subtitulo{
+
+
+   margin-bottom: 200px;
+
+  }
+}
+
+.quarta{
+  background-color: #040404;
+  height: 300px;
+  border-radius: 50px;
+  width: 60%;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  
+ 
+  h1{
+    padding: 30px ;
+    
+    color: #ffff;
+    text-align: center;
+    line-height: 50px;
+
+  }
+  .button{
+    background-color: #ffffff;
+      color: #000000;
+      border-style: none;
+      width: 150px;
+      height: 50px;
+      border-radius: 95px;
+      font-size: 20px;
+      align-self: center;
+      padding: 10px;
+      margin-bottom: 50px;
+      align-items: flex-start;
+
+  }
 }
 }
