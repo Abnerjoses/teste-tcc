@@ -30,6 +30,49 @@ function App() {
         </div>
     
       </header>
+
+      <div className='corpo'>
+     
+
+      <h4>EXEMPLOS DE SITES FEITOS COM VALHALLA</h4>
+
+      <div className='centro'>
+       
+      <h1>A inspiração de web design que você estava procurando</h1>
+
+      <p>
+          Explore estes exemplos de sites criados <br /> por usuários Valhalla reais e obtenha <br />inspiração de web design e práticas <br />recomendadas para criar seu site da <br />maneira que você quiser</p>
+    
+    </div>
+
+    <div className='segunda'>
+
+      <hr className='linha'/>
+
+      <button className='botao'>Crie seu site</button>
+
+    </div>
+    <div className='terceira'> 
+
+      <img  className='print'src="/assets/images/image-removebg-preview.png"/>
+      
+      
+      
+      <h1 className='titulo'>Vikings</h1>
+      <h2 className='subtitulo'>Explorar site</h2>
+   
+
+
+
+    </div>
+          
+
+
+
+    
+
+      </div>
+
     </div>
   );
 }
