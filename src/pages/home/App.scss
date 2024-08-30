@@ -61,7 +61,7 @@ align-items: center;
   background-color: #333333;
   color: #ffff;
   gap: 30000px;
-  margin-bottom: 500px;
+  margin-bottom: -5px;
 }
 
 
@@ -118,6 +118,83 @@ align-items: center;
     
   }
 }
+
+.corpo1 img{
+ 
+    width: 100%;
+    z-index: 0;
+
+    
+    
+
+}
+
+.corpo1 {
+display: flex;
+flex-direction: column;
+
+
+.button1{
+  background-color: #000000;
+    color: #ffffff;
+    border-style: none;
+    width: 250px;
+    height: 60px;
+    border-radius: 95px;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 350px;
+    text-align: center;
+}
+
+
+
+.titulo{ 
+  width: 100;
+  position: absolute;
+  margin-left: 43.6%;
+  color: #000;
+  font-size: 40px;
+  margin-top: 90px;
+}
+
+.titulo1{ 
+  width: 100;
+  position: absolute;
+  margin-left: 43.6%;
+  color: #ffffff;
+  font-size: 40px;
+  margin-top: 90px;
+}
+
+.titulo2{ 
+
+  position: absolute;
+  margin-left: 18%;
+  color: #000000;
+  font-size: 35px;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.texto{
+  color: #000;
+  margin-left: 27%;
+  font-size: 27px;
+  position: absolute;
+  margin-top: 200px;
+}
+
+.texto1{
+  color: #ffffff;
+  margin-left: 27%;
+  font-size: 27px;
+  position: absolute;
+  margin-top: 200px;
+}
+
+}
 .terceira{
   display: flex;
   flex-direction: column;
@@ -138,29 +215,35 @@ align-items: center;
     background: no-repeat ;
     background-size: cover;
     height: 500px;
+    z-index: 1;
+    position: absolute;
 
 
   }
   .titulo{
+  font-size: 20px;
    align-self: flex-end;
-   margin-right: 22%;
-   margin-bottom: 50px;
-   
-   
-  
-  
-  
+   margin-right: 25%;
+   margin-bottom: 10px;
+   margin-top: 470px;
   }
+
+  .seta {
+    width: 30px;
+    
+  }
+  
   .subtitulo{
-
-
-   margin-bottom: 200px;
-
+    font-size: 40px;
+   margin-bottom: 170px;
+   margin-top: 1px;
+   align-self: start;
+   margin-left: 260px;
   }
 }
 
 .quarta{
-  background-color: #040404;
+  background-color: #1f1f1f;
   height: 300px;
   border-radius: 50px;
   width: 60%;
@@ -192,6 +275,9 @@ align-items: center;
       align-items: flex-start;
 
   }
+
+
+  
 }
 
 .quinta{
@@ -217,10 +303,12 @@ width:  100%;
 }
 
 .sexta{
+  
   background-color: #000;
   color: #fff;
   margin-bottom: -8px;
-  padding: 50px;
+  
+  padding: 10px 50px;
 
   
   .titulo{
@@ -233,9 +321,9 @@ width:  100%;
 
   .linha{
     align-self: center;
-    width: 95%;
+    
     margin-top: 50px;
-
+    
 }
 }
 
@@ -244,12 +332,9 @@ width:  100%;
   flex-direction: row;
   background-color: #000;
   color: #fff;
-  padding: 100px;
+  padding: 10px 100px;
   text-align: justify;
   font-size: small ;
-  
-
-
   .texto{
     gap: 100px;
     padding: 20px;
@@ -258,9 +343,10 @@ width:  100%;
 
   .titulo{
     padding: 20px;
+    width: 500px;
     line-height: 25px;
     text-align: left;
-    margin-top: -0.1px;
+    margin-top: 50px;
   }
 
   
